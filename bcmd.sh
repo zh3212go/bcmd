@@ -955,7 +955,7 @@ sed -i "/'s [Pp]assword:/a\===============> $COMMAND_ --> $IP" $DIR/log/$T1.tmp.
 sed -i "/^[Pp]assword:/a\===============> $COMMAND_ --> $IP" $DIR/log/$T1.tmp.$current_user.$IP-$i
 echo "---------------------------------------------------------------------------------------------------------@^_^@" >> $DIR/log/$T1.tmp.$current_user.$IP-$i
 sed -n '/===============> /,$p' $DIR/log/$T1.tmp.$current_user.$IP-$i >> $DIR/log/execute_result.$current_user.log
-}&
+}
 done <$DIR/iplist.txt.tmp
 wait
 echo -e "\e[1m--- Total $n hosts have been executed! ---\e[0m"
