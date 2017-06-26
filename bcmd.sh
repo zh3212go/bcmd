@@ -1,6 +1,7 @@
 #!/bin/sh
 #Edit by zh at 2015.6
 #set -x
+#version v2.95
 export LANG=C
 
 ping_timeout=3
